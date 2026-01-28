@@ -1,29 +1,20 @@
 .visual-refresh {
+
   /* base grid */
-  ._5e434347c823b592-base {
+  .base__5e434 {
     display: grid;
     grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
-    grid-template-rows:
-      [top] var(--custom-app-top-bar-height)
-      [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
-    grid-template-areas:
-      "titleBar titleBar titleBar"
-      "guildsList notice notice"
-      "guildsList channelsList page"
-      "userPanel userPanel page";
+    grid-template-rows: [top] var(--custom-app-top-bar-height) [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+    grid-template-areas: "titleBar titleBar titleBar""guildsList notice notice""guildsList channelsList page""userPanel userPanel page";
   }
 
   /* small user panel */
-  ._5e434347c823b592-base {
-    grid-template-areas:
-      "titleBar titleBar titleBar"
-      "guildsList notice notice"
-      "guildsList channelsList page"
-      "guildsList userPanel page";
+  .base__5e434 {
+    grid-template-areas: "titleBar titleBar titleBar""guildsList notice notice""guildsList channelsList page""guildsList userPanel page";
   }
 
   /* user panel */
-  ._5e434347c823b592-panels {
+  .panels__5e434 {
     position: static;
     border: 0;
     bottom: 0;

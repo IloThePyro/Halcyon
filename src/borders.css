@@ -1,61 +1,62 @@
 .visual-refresh {
+
   /* border none */
-  ._01ae244280823725-container /* vc chat + titlebar group */ {
+  .container__01ae2 {
     border: none;
   }
 
   /* border top */
-  ._5e434347c823b592-panels /* user panel */,
-	.f75fb00fb7356cbe-channelBottomBarArea /* chatbar */,
-    .ef3116c2da186559-tree /* server nav bar */ {
+  .panels__5e434,
+  .channelBottomBarArea_f75fb0,
+  .tree_ef3116 {
     border-top: var(--app-border-width) solid var(--app-frame-border) !important;
   }
 
   /* border top none */
-  ._740174f3d6a2c8fe-channelTextArea,
-	._740174f3d6a2c8fe-channelTextArea:focus-within /* chatbar focus-within*/ {
+  .channelTextArea__74017,
+  .channelTextArea__74017:focus-within {
     border-top: none !important;
   }
 
   /* border right */
-  ._5e434347c823b592-sidebarList /* dm and channel list */,
-	._5e434347c823b592-panels /* user panel */ {
+  .sidebarList__5e434,
+  .panels__5e434 {
     border-right: var(--app-border-width) solid var(--app-frame-border) !important;
   }
 
   /* border right none */
-  ._740174f3d6a2c8fe-channelTextArea /* chatbar */,
-	._740174f3d6a2c8fe-channelTextArea:focus-within /* chatbar focus-within*/,
-    ._44df51b030bd5ece-wrapper /* follow popup in announcement channels */ {
+  .channelTextArea__74017,
+  .channelTextArea__74017:focus-within,
+  .wrapper__44df5 {
     border-right: none !important;
   }
 
   /* border bottom */
-  .e131a99484292a19-container /* vc container */ {
+  .container_e131a9 {
     border-bottom: var(--app-border-width) solid var(--app-frame-border) !important;
   }
 
   /* border bottom none */
-  ._5e434347c823b592-panels /* user panel */,
-	._740174f3d6a2c8fe-channelTextArea /* chatbar */,
-	._740174f3d6a2c8fe-channelTextArea:focus-within /* chatbar focus-within*/,
-    ._44df51b030bd5ece-wrapper /* follow popup in announcement channels */,
-    ._5e434347c823b592-sidebar /* server list + channel list + user panel group */ {
+  .panels__5e434,
+  .channelTextArea__74017,
+  .channelTextArea__74017:focus-within,
+  .wrapper__44df5,
+  .sidebar__5e434 {
     border-bottom: none !important;
   }
 
   /* border left */
-  ._5e434347c823b592-panels /* user panel */,
-	.c8ffbb79449f399c-members /* thread members list */,
-    .f75fb00fb7356cbe-content > aside /* dm user panel */ {
+  .panels__5e434,
+  .members_c8ffbb,
+  .content_f75fb0>aside {
     border-left: var(--app-border-width) solid var(--app-frame-border) !important;
   }
 
   /* border left none */
-  ._740174f3d6a2c8fe-channelTextArea /* chatbar */,
-	._740174f3d6a2c8fe-channelTextArea:focus-within /* chatbar focus-within*/,
-	.c8ffbb79449f399c-container /* members list */,
-    ._44df51b030bd5ece-wrapper /* follow popup in announcement channels */ {
+  .channelTextArea__74017,
+  .channelTextArea__74017:focus-within,
+  .container_c8ffbb,
+  .wrapper__44df5 {
     border-left: none !important;
   }
 }
