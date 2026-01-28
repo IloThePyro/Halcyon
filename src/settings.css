@@ -1,0 +1,47 @@
+body {
+  /* unrounding: on/off */
+  --unrounding: on;
+
+  /* sizes */
+  --gap: 12px;
+
+  /* spacing between panels */
+  --divider-thickness: 4px;
+
+  /* top bar height */
+  --custom-app-top-bar-height: 24px;
+
+  /* window control button size */
+  --window-control-size: 14px;
+
+  /* amount of blur */
+  --blur-amount: 12px;
+
+  /* thickness of unread messages divider and highlighted message borders */
+  --friends-title-bar-height: var(--custom-channel-header-height);
+  --sidebar-border-bottom-width: 1px;
+  --chatbar-border-top-width: 2px;
+  --message-wrapper-bottom-width: 0px;
+
+  /* width of the top border of the chatbar */
+  --chatbar-height: var(--space-48);
+  --userpanel-height: var(--chatbar-height);
+  --dm-user-profile-footer-height: var(--chatbar-height);
+  --announcementChannelFollowPrompt-height: var(--space-24);
+
+  /* height of the chatbar */
+  --chatbar-padding: 0px;
+
+  /* padding of the chatbar */
+  --chatbar-margin-top: calc(var(--space-md) - (2 * var(--space-md)));
+  --custom-channel-textarea-text-area-height: var(--chatbar-height);
+  --userpanel-width: calc(
+    var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) +
+      var(--app-border-width)
+  );
+  --app-border-width: 1px;
+  --spotify-container-width: calc(
+    var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) -
+      calc(var(--custom-guild-list-padding) * 2) - var(--app-border-width)
+  );
+}

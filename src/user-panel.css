@@ -1,0 +1,36 @@
+.visual-refresh {
+  /* base grid */
+  ._5e434347c823b592-base {
+    display: grid;
+    grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
+    grid-template-rows:
+      [top] var(--custom-app-top-bar-height)
+      [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+    grid-template-areas:
+      "titleBar titleBar titleBar"
+      "guildsList notice notice"
+      "guildsList channelsList page"
+      "userPanel userPanel page";
+  }
+
+  /* small user panel */
+  ._5e434347c823b592-base {
+    grid-template-areas:
+      "titleBar titleBar titleBar"
+      "guildsList notice notice"
+      "guildsList channelsList page"
+      "guildsList userPanel page";
+  }
+
+  /* user panel */
+  ._5e434347c823b592-panels {
+    position: static;
+    border: 0;
+    bottom: 0;
+    inset-inline-start: 0;
+    grid-area: userPanel;
+    width: var(--userpanel-width);
+    margin: 0px 0px 1px 0px;
+    overflow: hidden;
+  }
+}

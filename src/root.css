@@ -1,0 +1,11 @@
+/* old discord font */
+@import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.css);
+
+:root {
+  container-name: root;
+  --custom-guild-list-padding: 12px;
+  --panel-backdrop-filter: none;
+  --custom-channel-header-height: calc(
+    var(--guildbar-avatar-size) + var(--space-xs)
+  );
+}
