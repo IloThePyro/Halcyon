@@ -4,8 +4,8 @@
   "description": "A discord theme which restores discord to its original layout and font.",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --watch src/main.css:build/halcyon.css src/dist.scss:theme/halcyon.theme.css",
-    "build": "sass src/main.css:build/halcyon.css src/dist.scss:theme/halcyon.theme.css"
+    "dev": "sass --watch src/main.scss:build/halcyon.css src/dist.scss:theme/halcyon.theme.css",
+    "build": "sass src/main.scss:build/halcyon.css src/dist.scss:theme/halcyon.theme.css"
   },
   "repository": {
     "type": "git",

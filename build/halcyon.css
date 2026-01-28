@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* dist.scss */
 /* unrounding.css */
 @property --unrounding {
   syntax: "off | on";
