@@ -1,6 +1,6 @@
-.visual-refresh {
+/*.visual-refresh {
 
-	/* set backdrop filter */
+	/* set backdrop filter /
 	.guilds__5e434,
 	.sidebarList__5e434,
 	.sidebarListRounded__5e434,
@@ -42,4 +42,4 @@
 	.sidebar__409aa {
 		backdrop-filter: var(--panel-backdrop-filter) !important;
 	}
-}
+}*/
