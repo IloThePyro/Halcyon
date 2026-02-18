@@ -1,7 +1,7 @@
-/*.visual-refresh {
+.visual-refresh {
+	/* set backdrop filter */
 
-	/* set backdrop filter /
-	.guilds__5e434,
+	/*.guilds__5e434,
 	.sidebarList__5e434,
 	.sidebarListRounded__5e434,
 	.panels__5e434,
@@ -41,5 +41,9 @@
 	.channelBottomBarArea_f75fb0,
 	.sidebar__409aa {
 		backdrop-filter: var(--panel-backdrop-filter) !important;
+	}*/
+
+	.chatTypingGradientNotAtBottom__36d07 {
+		display: none !important;
 	}
-}*/
+}
