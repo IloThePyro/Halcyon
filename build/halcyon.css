@@ -241,6 +241,9 @@ rect {
   .sidebar__409aa {
   	backdrop-filter: var(--panel-backdrop-filter) !important;
   }*/
+  .wrapper_ef3116.guilds__5e434 {
+    mask-image: none;
+  }
   .chatTypingGradientNotAtBottom__36d07 {
     display: none !important;
   }
