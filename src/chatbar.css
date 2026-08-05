@@ -1,61 +1,65 @@
 .visual-refresh {
-
-  /* flip chatbar */
-  .form_f75fb0 {
-    display: flex;
-    flex-direction: column;
-    padding: 0 !important;
-    margin-top: var(--chatbar-margin-top) !important;
-    margin-bottom: 0;
-  }
-
-  .channelTextArea_f75fb0 {
-    margin-bottom: 0px;
-  }
-
-  .base_b88801 {
-    position: static;
-    order: -1;
-    padding: 0 8px;
-    margin-bottom: 0px;
-  }
-
-  .form_f75fb0:has(.base_b88801) {
-    .channelTextArea_f75fb0 {
-      margin-bottom: 0px;
+    /* flip chatbar */
+    .form_f75fb0 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+        margin-top: var(--chatbar-margin-top) !important;
+        margin-bottom: 0;
     }
-  }
 
-  .scrollerSpacer__36d07 {
-    height: 24px;
-  }
+    .channelTextArea_f75fb0 {
+        margin-bottom: 0px;
+    }
 
-  .scroller__36d07::-webkit-scrollbar-track {
-    margin-bottom: calc(20px + var(--chatbar-padding));
-  }
+    .base_b88801 {
+        position: static;
+        order: -1;
+        padding: 0 8px;
+        margin-bottom: 0px;
+    }
 
-  /* remove unnecessary border colour transition from chatbar and chat bar focus-within */
-  .channelTextArea__74017,
-  .channelTextArea__74017:focus-within {
-    transition: none !important;
-  }
+    .form_f75fb0:has(.base_b88801) {
+        .channelTextArea_f75fb0 {
+            margin-bottom: 0px;
+        }
+    }
 
-  /* jank ass solution to only apply padding to treatment 3 */
-  /* chatbar outer form */
-  .form_f75fb0 {
-    --space-8: 16px;
-  }
+    .scrollerSpacer__36d07 {
+        height: 24px;
+    }
 
-  /* chatbar inner */
-  .channelBottomBarArea_f75fb0 {
-    --space-8: 8px;
-  }
+    .scroller__36d07::-webkit-scrollbar-track {
+        margin-bottom: calc(20px + var(--chatbar-padding));
+    }
+
+    /* remove unnecessary border colour transition from chatbar and chat bar focus-within */
+    .channelTextArea__74017,
+    .channelTextArea__74017:focus-within {
+        transition: none !important;
+    }
+
+    /* jank ass solution to only apply padding to treatment 3 */
+    /* chatbar outer form */
+    .form_f75fb0 {
+        --space-8: 16px;
+    }
+
+    /* chatbar inner */
+    .channelBottomBarArea_f75fb0 {
+        --space-8: 8px;
+    }
+
+    /* Remove extra container between the timestamp and gif button */
+    .buttons__74017 > .container__5287f {
+        display: none;
+    }
 }
 
 /* Hide Add Media and Nitro Gift button */
-span[id=«r651»]+.spacer__74017,
-.spacer__74017+div[class=container_c0c49a],
+span[id="«r651»"] + .spacer__74017,
+.spacer__74017 + div[class="container_c0c49a"],
 div[aria-label="Add Media"],
 div[aria-label="Send a gift"] {
-  display: none;
+    display: none;
 }

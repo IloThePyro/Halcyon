@@ -382,6 +382,10 @@ rect {
   .channelBottomBarArea_f75fb0 {
     --space-8: 8px;
   }
+  /* Remove extra container between the timestamp and gif button */
+  .buttons__74017 > .container__5287f {
+    display: none;
+  }
 }
 
 /* Hide Add Media and Nitro Gift button */
